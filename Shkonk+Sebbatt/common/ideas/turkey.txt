@@ -39,6 +39,45 @@ ideas = {
 				ai_join_ally_desire_factor = -200
 				join_faction_tension = 0.5
 			}
+		}
+		TUR_Western_Humiliations = {
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				war_support_factor = 0.2
+				political_power_factor = -0.8
+				conscription_factor = -0.3
+			}
+			rules = {
+				can_create_factions = no
+			}
+}
+		TUR_Damaged_Economy = {
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				production_speed_arms_factory_factor = -0.4
+				production_speed_industrial_complex_factor = -0.4
+				production_speed_infrastructure_factor = -0.4
+			}
 			rules = {
 				can_create_factions = no
 			}

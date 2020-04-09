@@ -4515,4 +4515,12 @@ spriteTypes = {
 		name = "GFX_idea_TUR_Ethnic_Nationalism"
 		texturefile = "gfx/interface/ideas/HOI4_Turkey_Ethnic_Nationalistic.dds"
 	}
+    spriteType = {
+		name = "GFX_idea_TUR_Western_Humiliations"
+		texturefile = "gfx/interface/ideas/HOI4_Turkey_Western_Humiliations.dds"
+	}
+    spriteType = {
+		name = "GFX_idea_TUR_Damaged_Economy"
+		texturefile = "gfx/interface/ideas/HOI4_Turkey_Damaged_Economy.dds"
+	}
 }

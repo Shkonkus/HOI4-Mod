@@ -484,6 +484,8 @@ bookmarks = {
 			ideas = {
 				TUR_Shariah_Law_Violated
 				TUR_Ethnic_Nationalism
+				TUR_Western_Humiliations
+				TUR_Damaged_Economy
 			}
 			focuses = {
 				
