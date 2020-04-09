@@ -142,8 +142,8 @@ set_popularities = {
 
 add_ideas = {
 	TUR_Shariah_Law_Violated
+	TUR_Ethnic_Nationalism
 }
-
 set_convoys = 20
 set_stability = 0.55
 

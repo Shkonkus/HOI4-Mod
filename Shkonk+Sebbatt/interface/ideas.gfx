@@ -4509,6 +4509,10 @@ spriteTypes = {
 	}
     spriteType = {
 		name = "GFX_idea_TUR_Shariah_Law_Violated"
-		texturefile = "gfx/interface/ideas/HOI4_Turkey_ShariahLawViolated.dds"
+		texturefile = "gfx/interface/ideas/HOI4_Turkey_ShariaLawViolated.dds"
+	}
+    spriteType = {
+		name = "GFX_idea_TUR_Ethnic_Nationalism"
+		texturefile = "gfx/interface/ideas/HOI4_Turkey_Ethnic_Nationalistic.dds"
 	}
 }
