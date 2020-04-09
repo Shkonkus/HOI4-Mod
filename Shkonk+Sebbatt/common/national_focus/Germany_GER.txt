@@ -1,0 +1,66 @@
+focus_tree = {
+	id = Germany
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = Germany
+		}
+	}
+	#Focus for 1936 German Election
+	focus = {
+		id = Germany_1936_german_election
+		icon = GFX_goal_unknown
+		x = 6
+		y = 1
+		cost = 10
+		available_if_capitulated = yes
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for KPD wins
+	focus = {
+		id = Germany_kpd_wins
+		icon = GFX_goal_unknown
+		x = 2
+		y = 2
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = Germany_1936_german_election }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for German National People's Party wins
+	focus = {
+		id = Germany_german_national_peoples_party_wins
+		icon = GFX_goal_unknown
+		x = 10
+		y = 2
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = Germany_1936_german_election }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Centrist Coalition
+	focus = {
+		id = Germany_centrist_coalition
+		icon = GFX_goal_unknown
+		x = 6
+		y = 2
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = Germany_1936_german_election }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+#End of focuses 
+ }

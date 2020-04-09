@@ -1,0 +1,36 @@
+add_namespace = germany
+
+##Event: The 1936 German Election
+country_event = {
+	id = shkonksebbatt.1
+	title = shkonksebbatt.1.title
+	desc = shkonksebbatt.1.desc
+	picture = GFX_event_test
+	fire_only_once = yes
+	major = yes
+	trigger = {
+		date > 1936.3.29
+	}
+	option = {
+		name = shkonksebbatt.1.a
+		ai_chance = { factor = 1}
+		set_politics= {
+ ruling_party = neutrality 
+elections_allowed = no 
+}
+	}
+	option = {
+		name = shkonksebbatt.1.b
+		ai_chance = { factor = 1}
+		set_politics= {
+ ruling_party = communism 
+elections_allowed = no 
+}
+add_stability= -0.10add_political_power= -30
+	}
+	option = {
+		name = shkonksebbatt.1.c
+		ai_chance = { factor = 1}
+		add_stability= -0.20add_political_power= -50
+	}
+}
