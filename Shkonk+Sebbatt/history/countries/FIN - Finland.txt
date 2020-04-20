@@ -1,4 +1,4 @@
-﻿capital = 111
+capital = 111
 
 oob = "FIN_1936"
 if = {
@@ -146,7 +146,7 @@ create_country_leader = {
 create_country_leader = {
 	name = "Kullervo Manner"
 	desc = "POLITICS_AIMO_AALTONEN_DESC"
-	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_2.dds"
+	picture = "gfx/leaders/FIN/FIN_KuverlloManner.dds"
 	expire = "1965.1.1"
 	ideology = marxism
 	traits = {
