@@ -1,4 +1,4 @@
-capital = 64
+﻿capital = 64
 
 oob = "GER_1936"
 
@@ -241,19 +241,18 @@ create_import = {
 }
 
 set_politics = {
-	ruling_party = fascism
+	ruling_party = democracy
 	last_election = "1933.3.5"
 	election_frequency = 48
 	elections_allowed = no
 }
 set_popularities = {
-	democratic = 20
-	fascism = 60
-	communism = 20
+	democratic = 50
+	fascism = 10
+	communism = 15
+	neutrality = 25
 }
 
-create_faction = Axis
-add_to_faction = GER
 
 
 add_ideas = {
@@ -279,11 +278,11 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Konrad Adenauer"
-	desc = "POLITICS_KONRAD_ADENAUER_DESC"
-	picture = "Portrait_Germany_Konrad_Adenauer.dds"
+	name = "Otto Wels"
+	desc = "POLITICS_OTTO_WELS_DESC"
+	picture = "GER_OttoWels.dds"
 	expire = "1965.1.1"
-	ideology = conservatism
+	ideology = socialism
 	traits = {
 	}
 }
